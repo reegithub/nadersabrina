@@ -1,11 +1,11 @@
 export const config = {
-    coupleNames: process.env.NEXT_PUBLIC_COUPLE_NAMES || "Default Names",
-    eventDate: process.env.NEXT_PUBLIC_EVENT_DATE || "2025-01-01T00:00:00",
-    groom: process.env.NEXT_PUBLIC_GROOM_NAME || "Default Groom",
-    groomNickName: process.env.NEXT_PUBLIC_GROOM_NICKNAME || "Default Nickname",
+    coupleNames: process.env.NEXT_PUBLIC_COUPLE_NAMES || "Nader and Sabrina",
+    eventDate: process.env.NEXT_PUBLIC_EVENT_DATE || "2027-05-02T16:00:00",
+    groom: process.env.NEXT_PUBLIC_GROOM_NAME || "Nader Labbaoui",
+    groomNickName: process.env.NEXT_PUBLIC_GROOM_NICKNAME || "Nader",
     groomInstagram: process.env.NEXT_PUBLIC_GROOM_INSTAGRAM || "Default Instagram",
     groomBio: process.env.NEXT_PUBLIC_GROOM_BIO || "Default Bio",
-    bride: process.env.NEXT_PUBLIC_BRIDE_NAME || "Default Bride",
+    bride: process.env.NEXT_PUBLIC_BRIDE_NAME || "Reena",
     brideNickName: process.env.NEXT_PUBLIC_BRIDE_NICKNAME || "Default Nickname",
     brideInstagram: process.env.NEXT_PUBLIC_BRIDE_INSTAGRAM || "Default Instagram",
     brideBio: process.env.NEXT_PUBLIC_BRIDE_BIO || "Default Bio",
@@ -18,7 +18,7 @@ export const config = {
     timeline_3: process.env.NEXT_PUBLIC_YEAR_3 || "Default Timeline 3",
     timeline_3_content: process.env.NEXT_PUBLIC_YEAR_3_CONTENT || "Default Timeline 3 Content",
     holyMatrimony: {
-        enabled: process.env.NEXT_PUBLIC_HOLY_MATRIMONY === 'true',
+        enabled: process.env.NEXT_PUBLIC_HOLY_MATRIMONY === 'false',
         time: process.env.NEXT_PUBLIC_HOLY_MATRIMONY_TIME || "00:00",
         place: process.env.NEXT_PUBLIC_HOLY_MATRIMONY_PLACE || "Default Church",
         place_details: process.env.NEXT_PUBLIC_HOLY_MATRIMONY_PLACE_DETAILS || "Default Street",
@@ -27,9 +27,9 @@ export const config = {
     weddingReception: {
         enabled: process.env.NEXT_PUBLIC_WEDDING_RECEPTION === 'true',
         time: process.env.NEXT_PUBLIC_WEDDING_RECEPTION_TIME || "00:00",
-        place: process.env.NEXT_PUBLIC_WEDDING_RECEPTION_PLACE || "Default Venue",
-        place_details: process.env.NEXT_PUBLIC_WEDDING_RECEPTION_PLACE_DETAILS || "Default Street",
-        googleMapsLink: process.env.NEXT_PUBLIC_WEDDING_RECEPTION_GOOGLE_MAPS || "https://maps.app.goo.gl/fQGiC37iEx6fcuNq8",
+        place: process.env.NEXT_PUBLIC_WEDDING_RECEPTION_PLACE || "Villa Sofia",
+        place_details: process.env.NEXT_PUBLIC_WEDDING_RECEPTION_PLACE_DETAILS || "Kalaa Kbira - Sousse",
+        googleMapsLink: process.env.NEXT_PUBLIC_WEDDING_RECEPTION_GOOGLE_MAPS || "https://maps.app.goo.gl/LerGoJbvpGFbp4Q27",
     },
     livestreaming: {
         enabled: process.env.NEXT_PUBLIC_LIVE_STREAMING === 'true',
