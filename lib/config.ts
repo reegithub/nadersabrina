@@ -18,7 +18,7 @@ export const config = {
     timeline_3: process.env.NEXT_PUBLIC_YEAR_3 || "Default Timeline 3",
     timeline_3_content: process.env.NEXT_PUBLIC_YEAR_3_CONTENT || "Default Timeline 3 Content",
     holyMatrimony: {
-        enabled: process.env.NEXT_PUBLIC_HOLY_MATRIMONY === 'false',
+        enabled: process.env.NEXT_PUBLIC_HOLY_MATRIMONY === 'true',
         time: process.env.NEXT_PUBLIC_HOLY_MATRIMONY_TIME || "00:00",
         place: process.env.NEXT_PUBLIC_HOLY_MATRIMONY_PLACE || "Default Church",
         place_details: process.env.NEXT_PUBLIC_HOLY_MATRIMONY_PLACE_DETAILS || "Default Street",
